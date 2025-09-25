@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Index</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="logo" href="index.html"><h1>ZAR</h1></a>
+<nav class="main-nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="books.html">Books</a></li>
+<li><a href="clothes.html">Clothes</a></li>
+<li><a href="electronics.html">Electronics</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+</nav>
+<button class="menu-toggle" aria-label="menu">☰</button>
+</div>
+</header>
+<main class="wrap main-content">
+
+<section class="hero">
+<div class="hero-inner">
+<div class="hero-text">
+<h1>Welcome to Our Store</h1>
+<p>Discover top products across categories</p>
+<a class="btn" href="books.html">Shop Books</a>
+</div>
+<figure class="hero-figure"><img src="../images/hero.jpg" alt="hero"></figure>
+</div>
+</section>
+<section class="preview">
+<h2>Categories</h2>
+<div class="category-grid">
+<a class="card" href="books.html"><img src="../images/books/book1.webp" alt="" width="600" height="800"><h3>Books</h3></a>
+<a class="card" href="clothes.html"><img src="../images/clothes/shirt.webp" alt="" style="margin-bottom: 100px; margin-top: 93px;"><h3>Clothes</h3></a>
+<a class="card" href="electronics.html"><img src="../images/electronics/phone.webp" alt="" src="../images/electronics/phone.webp" alt="" width="600" height="800" style="margin-top: 100px; margin-bottom: 93px;"><h3>Electronics</h3></a>
+</div>
+</section>
+<section class="promo">
+<video controls playsinline width="100%" preload="metadata" class="promo-video">
+<source src="../video/promo.mp4" type="video/mp4">
+</video>
+</section>
+<div class="countdown">
+<h3>Sale ends in</h3>
+<div id="countdown" class="countdown-timer"></div>
+</div>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-grid">
+<div><h4>connect us</h4>
+<p>zarstore@gmail.com</p>
+</div>
+<div>
+<h4>Address</h4>
+<p>Ryad, Saudi Arabia</p>
+</div>
+<div>
+<h4>Map</h4>
+<div id="map" class="map"></div>
+</div>
+</div>
+<p class="copyright">© 2025 zarstore</p>
+</div>
+</footer>
+<script src="../js/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
