@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap header-inner">
+<a class="logo" href="index.html"><h1>ZAR</h1></a>
+<nav class="main-nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="books.html">Books</a></li>
+<li><a href="clothes.html">Clothes</a></li>
+<li><a href="electronics.html">Electronics</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+</nav>
+<button class="menu-toggle" aria-label="menu">☰</button>
+</div>
+</header>
+<main class="wrap main-content">
+
+<section class="checkout">
+<h2>Checkout</h2>
+<form id="checkoutForm" class="form grid-2">
+<label>Full name<input type="text" required></label>
+<label>Address<input type="text" required></label>
+<label>Card number<input type="text" maxlength="19" required></label>
+<label>Expiration<input type="text" required></label>
+<button class="btn" type="submit">Pay Now</button>
+</form>
+</section>
+
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-grid">
+<div>
+<h4>Contact</h4>
+<p>zarstore@gmail.com</p>
+</div>
+<div>
+<h4>Address</h4>
+<p>Ryad, Saudi Arabia</p>
+</div>
+<div>
+<h4>Map</h4>
+<div id="map" class="map"></div>
+</div>
+</div>
+<p class="copyright">© 2025 zarstore</p>
+</div>
+</footer>
+<script src="../js/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
